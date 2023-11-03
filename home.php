@@ -56,13 +56,16 @@
               <p>EFFICACE ET RENTABLE</p>
             </div>
             <figure class="box-text regularb-font-21" style="color: #fff; text-align: center;">
-              <p>Comptabilité <span class="box-border">+</span></p>
-              <p>Assemblée Générale <span class="box-border">+</span></p>
-              <p>Gestion des événements <span class="box-border">+</span></p>
-              <p>Extranet <span class="box-border">+</span></p>
-              <p>Applications mobiles <span class="box-border">+</span></p>
-              <p>Vote en AG à distance... <span class="box-border">+</span></p>
+              <p class="section-3-points">Comptabilité <span class="box-border">+</span></p>
+              <p class="section-3-points">Assemblée Générale <span class="box-border">+</span></p>
+              <p class="section-3-points">Gestion des événements <span class="box-border">+</span></p>
+              <p class="section-3-points">Extranet <span class="box-border">+</span></p>
+              <p class="section-3-points">Applications mobiles <span class="box-border">+</span></p>
+              <p class="section-3-points">Vote en AG à distance... <span class="box-border">+</span></p>
               <br><br>
+              <div class="section-3-button-wrapper">
+                <a href="#" class="section-3-button">DÉCOUVRIR L’ENSEMBLE DES SERVICES</a>
+              </div>
             </figure>
           </div>
         </div>
@@ -76,18 +79,16 @@
           <div class="dark-blue-box" style="background-image: url('home/contue-footer/cadre-bleu.png'); background-size: cover;">
             <div class="heading-right" style="text-align: center;color: #fff;">
               <br>
-              <p>UN KIT COMPLET POUR UNE<br><br>
-                GESTION DE COPROPRIÉTÉ<br><br>
-                EFFICACE ET RENTABLE
-              </p>
+              <p>L’INNOVATION AU SERVICE D’UNE</p>
+              <p>GESTION SANS FAILLE</p>
             </div>
             <figure class="box-text" style="color: #fff; text-align: center;">
-              <p>Comptabilité+</p>
-              <p>Assemblée Générale+</p>
-              <p>Gestion des événements+</p>
-              <p>Extranet+</p>
-              <p>Applications mobiles+</p>
-              <p>Vote en AG à distance...+</p>
+              <p class="section-3-points">Comptabilité<span class="box-border">+</span></p>
+              <p class="section-3-points">Assemblée Générale<span class="box-border">+</span></p>
+              <p class="section-3-points">Gestion des événements<span class="box-border">+</span></p>
+              <p class="section-3-points">Extranet<span class="box-border">+</span></p>
+              <p class="section-3-points">Applications mobiles<span class="box-border">+</span></p>
+              <p class="section-3-points">Vote en AG à distance...<span class="box-border">+</span></p>
               <br><br>
             </figure>
           </div>
