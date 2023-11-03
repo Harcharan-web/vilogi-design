@@ -1,0 +1,159 @@
+
+
+.sections-detail {
+	margin: 0 0 55px;
+}
+.section-title {
+	font-family: 'Roboto Slab', serif;
+	font-size: 28px;
+	line-height: 40px;
+	letter-spacing: 0.84px;
+	font-weight: 700;
+	color: #7b6cd5;
+	text-align: center;
+}
+.section-title-desc {
+	font-size: 15px;
+	line-height: 40px;
+	font-weight: 400;
+	letter-spacing: 0.45px;
+	color: #666;
+	text-align: center;
+}
+
+/*Contact us*/
+.template .contact-section {
+	padding: 60px 15px; 
+}
+.template .contact-section .appointment {
+ 	border: 1px solid #666; 
+ 	border-radius: 3px;
+ 	padding: 30px 28px 25px;
+}
+.template .contact-section .appointment .appointment-title {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 30px;
+	line-height: 40px;
+	font-weight: 600;
+	letter-spacing: 0.6px;
+	text-align: center;
+	color:#7b6cd5;
+}
+.template .contact-section .appointment .appointment-desc {
+	font-family: inherit;
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: 0.56px;
+	color:#888;
+	text-align: center;
+}
+ .template .contact-section .appointment .appointment-form {
+ 	margin-top: 40px;
+ }
+.template .contact-section .appointment 
+.appointment-form  .appointment-form-input {
+	border: 1px solid #999;
+	height: 38px;
+	margin-bottom: 9px;
+	font-size: 12px;
+	line-height: 40px;
+	letter-spacing: 0.48px;
+}
+.template .contact-section .appointment 
+.appointment-form  .data-input {
+	text-transform: uppercase;
+}
+.template .contact-section .appointment 
+.appointment-form .appointment-form-text {
+	border: 1px solid #999;
+	margin-bottom: 20px;
+	font-size: 12px;
+	line-height: 40px;
+	letter-spacing: 0.48px;
+}
+.template .contact-section .appointment 
+.appointment-form .box-select::before {
+    content: "\f0dd";
+    font-family: "Font Awesome 5 Free";
+    position: absolute;
+    top: 41%;
+    right: -5%;
+    width: 35px;
+    height: 38px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 37px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(123, 108, 213);
+    font-weight: 600;
+    border-radius: 3px;
+    transform: translate(-50%, -50%);
+}
+.template .contact-section .appointment 
+.appointment-form .appointment-form-col-left {
+	padding-right: 7px;
+}
+.template .contact-section .appointment 
+.appointment-form .appointment-form-col-right {
+	padding-left: 7px;
+    padding-right: 7px;
+}
+
+.template .contact-section .appointment 
+.appointment-form .appointment-form-btn {
+	width: 100%;
+    padding: 18px 0 13px;
+    background-color: #7b6cd5;
+    border: 1px solid #7b6cd5;
+    border-radius: 3px;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+}
+.template .contact-section .open-time {
+	text-align: center;
+}
+.template .contact-section .open-time .weekdays {
+	margin-top: 50px;
+}
+.template .contact-section .open-time .weekends {
+	margin-top: 40px;
+}
+.template .contact-section .open-time .open-time-title {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 25px;
+	line-height: 40px;
+	font-weight: 600;
+	letter-spacing: 0.25px;
+	color: #7b6cd5;
+	margin-bottom: 5px;
+}
+.template .contact-section .open-time .open-time-clock {
+	font-family: inherit;
+	font-size: 18px;
+	line-height: 40px;
+	letter-spacing: 0.72px;
+	font-weight: 600;
+	color:#444;
+}
+.template .contact-section .open-time .open-time-course {
+	font-family: inherit;
+	font-size: inherit;
+	line-height: 40px;
+	letter-spacing: 0.6px;
+	color: inherit;
+}
+
+.container{width:100%;padding-right:15px;padding-left:15px;margin-right:
+	auto;margin-left:auto}@media (min-width:576px){.container{max-width:540px}
+}@media (min-width:768px){.container{max-width:720px}}@media (min-width:992px)
+{.container{max-width:960px}}@media (min-width:1200px){.container{max-width:1140px}}
+.container-fluid{width:100%;padding-right:15px;padding-left:15px;margin-right:
+	auto;margin-left:auto}.row{display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;
+		flex-wrap:wrap;margin-right:-15px;margin-left:-15px}
+		.row{display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-right:-15px;margin-left:-15px}
+.col-lg-6{-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%}

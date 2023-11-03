@@ -1,0 +1,695 @@
+*,
+*:after {
+  box-sizing: border-box;
+  
+}
+.paragraph-logo{
+  text-align: right;
+  
+
+}
+.paragraph-logo-text{
+  font-size: 12px;
+  color: #016FA8;
+
+}
+.box-border{
+  border: 1px solid;
+  padding: 5px;
+}
+.logo-size{
+  height: 35px;
+
+}
+#left-p{
+  margin-left:100px;
+}
+#right-p{
+  margin-right: 100px;
+}
+body {
+  font-family: "Roboto", "sans-serif";
+  margin: 0;
+}
+
+/* Header CSS */
+
+.top-header {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.background-header-image {
+  background-image: url("home/header-menu/onglet-connexion.png");
+  position: absolute;
+  top: 100px;
+  z-index: 1;
+  width: 100%;
+  background-size: cover;
+  height: 32px;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.top-nav-links {
+  display: flex;
+  gap: 25px;
+  margin-right: 50px;
+  margin-top: 50px;
+}
+
+.first-link {
+  background-color: #892FC0;
+  padding: 10px;
+  color: #fff;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.first-link a, .second-link a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.second-link {
+  background-color: #122B54;
+  padding: 10px;
+  color: #fff;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+/* Home Css */
+.section-two-text {
+  border: 1px solid;
+  margin: auto;
+  margin-left: 15px;
+  padding: 25px;
+}
+
+.section-two-first {
+  display: flex;
+  padding: 15px;
+}
+
+.section-two-second {
+  margin: auto;
+}
+
+.section-three-container {
+  margin-top: 20px;
+}
+
+.digital-icon {
+  text-align: center;
+  margin-left: px;
+
+}
+
+.dark-blue-box {
+  max-width: 70%;
+  margin: auto;
+}
+
+.vilogi-me-header {
+  margin: 15px auto;
+}
+
+.portfolio-grid-blue-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* Two equal-width columns */
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.portfolio-item-text {
+  border-radius: 5px;
+  border: 2px solid #000;
+  padding: 20px;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+h2 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+p {
+  font-size: 16px;
+  margin: 0;
+}
+
+/* Media Query for responsiveness */
+@media (max-width: 768px) {
+  .portfolio-grid {
+    grid-template-columns: 1fr;
+    /* One column for mobile */
+  }
+
+  .dark-blue-box-wrapper {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .digital-icon-wrapper {
+    margin: auto;
+    height: auto;
+    width: auto;
+  }
+}
+.digital-icon-wrapper{
+  display: flex;
+  justify-content: center;
+}
+.header-bg-img {
+  background-image: url("home/header-menu/photo-slider.png");
+  position: relative;
+  background-size: cover;
+  max-width: auto;
+}
+
+.phone {
+  color: #fff;
+  margin-left: 30px;
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+}
+
+.header-menu-container {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: -45px;
+}
+
+.navbar {
+  overflow: hidden;
+  /* background-color: #333; */
+  /* position: fixed; */
+  top: 15px;
+  width: 100%;
+}
+
+.navbar a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header-main {
+  margin-top: 27px;
+}
+
+.navbar {
+  /* position: fixed; */
+  align-items: right;
+  /* position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100; */
+}
+
+.nav-menu {
+  display: flex;
+  /* position: fixed; */
+  float: right;
+  margin-top: 45px;
+}
+
+.nav-item {
+  margin-left: 1rem;
+  align-items: right;
+  position: right;
+}
+
+.nav-link {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-link:hover {
+  color: #1ae5f7;
+}
+
+.navbar .icon {
+  display: none;
+  color: white;
+  font-size: 65px;
+  cursor: pointer;
+}
+
+.navbar .icon.close,
+.navbar .icon.close {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar .items {
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    right: 10px;
+  }
+
+  .navbar .nav-menu {
+    display: none;
+    background: #122b54;
+  }
+
+  .navbar .icon {
+    display: block;
+  }
+
+  .navbar.responsive .nav-menu {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .navbar.responsive .nav-item {
+    margin: 10px 0;
+  }
+
+  .navbar.responsive .icon.open {
+    display: none;
+  }
+
+  .navbar.responsive .icon.close {
+    display: block;
+  }
+
+  .mb-d-show {
+    display: none;
+  }
+}
+
+.grid-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+
+.grid-item {
+  padding: 20px;
+  font-size: 30px;
+  color: #fff;
+  
+}
+
+.right-bg-img {
+  background-image: url(home/header-menu/aplat-bandeau.png);
+  float: right;
+  font-size: 30px;
+}
+
+.column {
+  float: left;
+  width: 31.33%;
+  padding: 13px;
+  height: 300px;
+  /* Should be removed. Only for demonstration */
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.social-icon {
+  display: flex;
+  justify-content: initial;
+}
+
+.navbar-footer {
+  color: #fff;
+}
+
+.footer-thrid {
+  color: #fff;
+}
+
+.regular-font {
+  font-size: 20px;
+}
+
+/* Create two equal columns that floats next to each other */
+.column-blue {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px;
+  /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column-blue {
+    width: 100%;
+  }
+
+  .grid-container,
+  .portfolio-grid,
+  .portfolio-grid-blue-box,
+  .footer-container {
+    flex-direction: column;
+  }
+}
+
+/* Create two equal columns that floats next to each other */
+.column-blue {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px;
+  /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.blue-box {
+  background-image: url("home/contue-footer/adept.png");
+  height: 900px;
+}
+
+.heading {
+  text-align: right;
+  color: #fff;
+  margin-right: 90px;
+  font-size: 32px;
+}
+
+.vilgoi {
+  font-size: 34px;
+  color: #6e4494;
+}
+
+.heading-right {
+  margin-left: 20px;
+  padding-top: 20px;
+  color: #fff;
+}
+
+.blue-img {
+  background-image: url("home/contue-footer/cadre-bleu.png");
+  width: 50%;
+}
+
+.blue-img-right {
+  background-image: url("home/contue-footer/cadre-bleu.png");
+  width: 50%;
+  float: right;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column-blue {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1220px) {
+  .background-header-image {
+    height: 52px;
+  }
+}
+
+.vlogi-me {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px;
+  /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.two-grid:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.cadre-violet {
+  background-image: url("home/contue-footer/cadre-violet.png");
+  width: 60%;
+}
+
+.gestion {
+  text-align: center;
+  color: #fff;
+}
+
+.wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.box {
+  margin: 10px;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  border-radius: 3px;
+  -webkit-transition: 200ms ease-in-out;
+  -o-transition: 200ms ease-in-out;
+  transition: 200ms ease-in-out;
+  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.box:hover {
+  margin-bottom: -10px;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+}
+
+.box h1 {
+  color: #fff;
+  padding: 30px;
+  margin-top: 100px;
+  text-align: center;
+  font-weight: 100;
+  font-size: 25px;
+  background: rgba(0, 0, 0, 0.8);
+  -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
+}
+
+.date h4 {
+  color: #fff;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 3px;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.9);
+}
+
+.one {
+  background: url("home/contue-footer/aplat1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.two {
+  background: url("home/contue-footer/aplat1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.three {
+  background: url("home/contue-footer/aplat1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.five {
+  background: url("home/contue-footer/violet.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.pages-left {
+  color: #fff;
+  margin: 30px;
+}
+
+.portfolio-grid {
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  /* Two equal-width columns */
+  gap: 20px;
+  /* Gap between grid items */
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* .portfolio-item-text {
+  border-radius: 5px;
+  border: 2px solid #000;
+  padding: 20px;
+} */
+
+img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+h2 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+p {
+  font-size: 16px;
+  margin: 0;
+}
+
+.portfolio-grid-blue-box {
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  /* Two equal-width columns */
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Media Query for responsiveness */
+@media (max-width: 768px) {
+  .portfolio-grid {
+    grid-template-columns: 1fr;
+    /* One column for mobile */
+  }
+}
+
+.page-sidebar-arrow-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+/* Footer css */
+footer {
+  background-image: url('home/contue-footer/adept.png');
+  color: #fff;
+  padding: 20px 0;
+  background-size: cover;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-left: 20px;
+  
+}
+.section-3-vilogi{
+  padding: 100px 0;
+}
+
+.footer-column {
+  /* flex-basis: calc(40.33% - 20px); */
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+/* Adjust the styles for different screen sizes */
+@media (max-width: 768px) {
+  .footer-column {
+    flex-basis: calc(50% - 20px);
+  }
+}
+
+.grid-container-footer {
+  display: flex;
+  justify-content: center;
+  /* Four equal-width columns */
+
+}
+
+.grid-item-footer {
+  padding: 20px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .grid-container-footer {
+    grid-template-columns: repeat(2, 1fr);
+    /* Two columns on smaller screens */
+  }
+}
+
+/* Page CSS */
+
+/* Make the label look like a button*/
+.toggle-label {
+  border: 2px solid black;
+  padding: 15px;
+  cursor: pointer;
+}
+
+/* Make the checkbox dissapear */
+#cbToggleVisibility {
+  position: absolute;
+  left: -999999999px;
+}
+
+/* Make the #target display: none by default */
+.target {
+  display: none;
+}
+
+/* 
+Here is where the magic happens! 
+This is where the actual toggle visibility happens.
+*/
+#cbToggleVisibility:checked~.target {
+  display: block;
+}
