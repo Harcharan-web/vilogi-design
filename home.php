@@ -140,13 +140,13 @@
   </div>
   <div class="container-fluid" style="background-image: url('home/contue-footer/adept.png'); background-size: cover;">
     <br />
-    <div class="services-text" style="color: #fff; margin: 20px;">
-      <h4>LES SERVICES MÉTIERS</h4>
+    <div class="services-text" style="color: #fff; margin-left: 120px;">
+      <h3>LES SERVICES MÉTIERS</h3>
       <p>UN BOUQUET DE SERVICES POUR ACCOMPAGNER LA TRANSFORMATION DIGITALE</p>
       <p>DE VOTRE GESTION IMMOBILIÈRE</p>
     </div>
     <div class="wrap row">
-      <div class="box one col-md-3">
+      <div class="box one">
         <div class="date">
           <h4>
             EXTERNALISATION<br />
@@ -156,7 +156,7 @@
         </div>
         <img src="home/contue-footer/externalisation.png" />
       </div>
-      <div class="box two col-md-3">
+      <div class="box two">
         <div class="date">
           <h4>
             OFFRES DE SERVICES<br />
@@ -166,7 +166,7 @@
         <img src="home/contue-footer/icono-api.png" />
       </div>
 
-      <div class="box three col-md-3">
+      <div class="box three">
         <div class="date">
           <h4>
             EXTERNALISATION DE LA<br />
@@ -175,7 +175,7 @@
         </div>
         <img src="home/contue-footer/exter-gestion.png" />
       </div>
-      <div class="box five col-md-3">
+      <div class="box five">
         <div class="date">
           <img src="home/contue-footer/VILOGI_Me.png" />
         </div>
@@ -185,8 +185,8 @@
   </div>
   <div class="estimation">
     <div style="margin:60px; font-size:30px; color:#016FA8;">
-      <h3>ESTIMATION DE BIENS</h3>
-      <h6>ACCROCHE<h6>
+      <h3 class="section-6-left">ESTIMATION DE BIENS</h3>
+      <h6 class="section-six-left">ACCROCHE<h6>
     </div>
   </div>
   <br><br>

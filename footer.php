@@ -1,5 +1,5 @@
 
-  <div class="grid-container-footer">
+<div class="grid-container-footer">
     <div class="grid-item-footer">
       <img src="home/contue-footer/developer-france.png">
     </div>
@@ -57,9 +57,9 @@
         <p>Condition Générale de Vente</p><br>
         <p>Copyright © VILOGI 2023 </p><br>
         <div class="logo">
-          <img src="home/footer/logo-Unis.png">
-          <img src="home/footer/logo-ubiflow.png">
-          <img src="home/footer/Logo-coin.png">
+          <img class="footer copyright-images" src="home/footer/logo-Unis.png">
+          <img class="footer copyright-images" src="home/footer/Logo-coin.png">
+          <img class="footer copyright-images" src="home/footer/logo-ubiflow.png">
         </div>
       </div>
     </div>

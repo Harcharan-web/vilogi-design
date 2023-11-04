@@ -37,10 +37,18 @@
   text-decoration: none;
   color: #fff;
 }
-
+.section-6-left{
+  margin-left: 55px;
+}
+.section-six-left{
+  margin-left: 55px;
+}
 .logo-size{
   height: 35px;
 
+}
+.logo{
+  display: flex;
 }
 #left-p{
   margin-left:100px;
@@ -431,9 +439,8 @@ ul {
 }
 
 .heading {
-  text-align: right;
+  text-align: center;
   color: #fff;
-  margin-right: 90px;
   font-size: 32px;
 }
 
@@ -443,7 +450,7 @@ ul {
 }
 
 .heading-right {
-  margin-left: 20px;
+  margin-right: -50px;
   padding-top: 20px;
   color: #fff;
 }
@@ -470,7 +477,10 @@ ul {
   .background-header-image {
     height: 55px;
   }
-}
+
+  }
+
+
 
 .vlogi-me {
   float: left;
@@ -513,6 +523,7 @@ ul {
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
   flex-direction: row;
+  padding-bottom: 75px;
 }
 
 .box {
