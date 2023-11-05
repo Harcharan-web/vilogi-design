@@ -1,20 +1,23 @@
 *,
 *:after {
   box-sizing: border-box;
-  
-}
-.paragraph-logo{
-  text-align: right;
-  
 
 }
-.paragraph-logo-text{
+
+.paragraph-logo {
+  text-align: right;
+
+
+}
+
+.paragraph-logo-text {
   font-size: 12px;
   color: #016FA8;
   position: relative;
   top: -10px;
 }
-.box-border{
+
+.box-border {
   border: 1px solid;
   padding: 2px 12px;
   border-top-right-radius: 10px;
@@ -26,36 +29,37 @@
 }
 
 .section-3-button-wrapper {
-  background-color: #86C4EC;
-  padding: 5px;
+  background-color: #016FA8;
+  padding: 8px;
   border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;
   margin-bottom: 10px;
+  width: 80%;
+  margin: auto;
 }
 
 .section-3-button-wrapper a {
   text-decoration: none;
   color: #fff;
 }
-.section-6-left{
+
+.section-6-left {
   margin-left: 55px;
 }
-.section-six-left{
+
+.section-six-left {
   margin-left: 55px;
 }
-.logo-size{
+
+.logo-size {
   height: 35px;
 
 }
-.logo{
+
+.logo {
   display: flex;
 }
-#left-p{
-  margin-left:100px;
-}
-#right-p{
-  margin-right: 100px;
-}
+
 body {
   font-family: "Roboto", "sans-serif";
   margin: 0;
@@ -95,7 +99,8 @@ body {
   border-bottom-left-radius: 15px;
 }
 
-.first-link a, .second-link a {
+.first-link a,
+.second-link a {
   color: #fff;
   text-decoration: none;
 }
@@ -135,10 +140,17 @@ body {
 
 }
 
+.section-4-vilogi {
+  background-image: url("home/Nouveaux-elements/Aplat V_ME.png");
+  background-size: cover;
+  padding-top: 40px;
+}
+
 .dark-blue-box {
   max-width: 70%;
   margin: auto;
   padding-bottom: 15px;
+  border: 1px solid #040f21;
 }
 
 .vilogi-me-header {
@@ -177,9 +189,17 @@ p {
 
 .section-two-text {
   max-width: 85%;
-    margin: auto;
+  margin: auto;
 }
 
+.box-text {
+  color: #86C4EC;
+  text-align: center;
+}
+
+.blue-imag {
+  padding-top: 20px;
+}
 /* Media Query for responsiveness */
 @media (max-width: 768px) {
   .portfolio-grid {
@@ -197,11 +217,17 @@ p {
     height: auto;
     width: auto;
   }
+
+  .heading {
+    justify-content: center;
+  }
 }
-.digital-icon-wrapper{
+
+.digital-icon-wrapper {
   display: flex;
   justify-content: center;
 }
+
 .header-bg-img {
   background-image: url("home/header-menu/photo-slider.png");
   position: relative;
@@ -347,7 +373,7 @@ ul {
   padding: 20px;
   font-size: 30px;
   color: #fff;
-  
+
 }
 
 .right-bg-img {
@@ -446,11 +472,10 @@ ul {
 
 .vilgoi {
   font-size: 34px;
-  color: #6e4494;
+  color: #fff;
 }
 
 .heading-right {
-  margin-right: -50px;
   padding-top: 20px;
   color: #fff;
 }
@@ -478,7 +503,7 @@ ul {
     height: 55px;
   }
 
-  }
+}
 
 
 
@@ -666,9 +691,10 @@ footer {
   justify-content: space-evenly;
   flex-wrap: wrap;
   margin-left: 20px;
-  
+
 }
-.section-3-vilogi{
+
+.section-3-vilogi {
   padding: 100px 0;
 }
 

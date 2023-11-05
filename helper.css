@@ -1,10 +1,8 @@
-.third-link{
+.third-link {
     color: #122B54;
     font-size: 30px;
 }
-.box-text{
-    margin-right: 70px;
-}
+
 .d-none {
     display: none;
 }
@@ -21,6 +19,7 @@
 .regular-font-21 {
     font-size: 16px;
 }
+
 .regular-font-32 {
     font-size: 22px;
 }

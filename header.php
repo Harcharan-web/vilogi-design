@@ -26,9 +26,7 @@
                         <a href="#">CONNEXION</a>
                     </div>
                     <div class="third-link">
-                    <i class="fa fa-search"></i>
-
-
+                        <i class="fa fa-search"></i>
                     </div>
                 </div>
             </div>
@@ -65,7 +63,7 @@
                 </div>
             </div>
             <div class="grid-container">
-                <div class="grid-item"id="left-p">
+                <div class="grid-item" id="left-p">
                     <figure> LA PLATEFORME COLLABORATIVE<br>
                         DE GESTION IMMOBILIÈRE<br>
                         ET D’ESTIMATION DE BIENS </figure>
@@ -75,7 +73,8 @@
                         <figure>Découvrez notre nouvelle<br>
                             application sur le salon RENT<br>
                             à Paris les 08 & 09 novembre<br>
-                            prochains !</figure>
+                            prochains !
+                        </figure>
                     </div>
                 </div>
             </div>

@@ -1,13 +1,26 @@
 
 <div class="grid-container-footer">
-    <div class="grid-item-footer">
-      <img src="home/contue-footer/developer-france.png">
-    </div>
-    <div class="grid-item-footer">
-      <img src="home/contue-footer/certifile.png">
-    </div>
-    <div class="grid-item-footer">
-      <img src="home/contue-footer/essai-gratuit.png">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="grid-item-footer">
+          <img src="home/contue-footer/developer-france.png">
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="grid-item-footer">
+          <img src="home/Nouveaux-elements/International.png">
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="grid-item-footer">
+          <img src="home/contue-footer/certifile.png">
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="grid-item-footer">
+          <img src="home/contue-footer/essai-gratuit.png">
+        </div>
+      </div>
     </div>
 
     <!-- Add more items as needed -->
