@@ -1,5 +1,35 @@
 <?php include('header.php'); ?>
 <div class="container-fluid">
+  <div class="row" style="margin-bottom: 10px">
+    <div class="col-md-2"></div>
+    <div class="col-md-2">
+      <div class="pages-button-wrapper">
+        <a href="#" class="pages-button">DECOUVRIR L’ENSEMBLE DES</a>
+      </div>
+    </div>
+    <div class="col-md-2">
+      <div class="pages-button-wrapper">
+        <a href="#" class="pages-button">Appli pour vos propriétaires</a>
+      </div>
+    </div>
+    <div class="col-md-2">
+      <div class="pages-button-wrapper">
+        <a href="#" class="pages-button">Visite technique de l’immeuble</a>
+      </div>
+    </div>
+    <div class="col-md-2">
+      <div class="pages-button-wrapper">
+        <a href="#" class="pages-button">Vote à distance en AG</a>
+      </div>
+    </div>
+    <div class="col-md-2">
+      <div class="pages-button-wrapper" style="background-color: #016FA8;">
+        <a href="#" class="pages-button" style="color:#fff">Les Tutoriels</a>
+      </div>
+    </div>
+    </div>
+  </div>
+  <hr style="margin-bottom: 20px;" />
   <!-- Grid -->
   <div class="row">
     <!-- Introduction menu -->
@@ -8,8 +38,7 @@
       <div class="w3-card w3-margin w3-margin-top">
         <input type="checkbox" id="cbToggleVisibility">
         <!-- <img src="/w3images/avatar_g.jpg" style="width:100%"> -->
-        <div class="w3-container w3-white"
-          style="background-image: url('home/pages/contiune-pages/tutos.png'); background-size:cover;">
+        <div class="w3-container w3-white" style="background-image: url('home/pages/contiune-pages/tutos.png'); background-size:cover;">
           <div class="article-sidebar-menu js-navigation-list">
             <div class="sidebar-heading" style="text-align:center; padding-top: 20px">
               <p class="font-60" style="color:#016FA8;">LES TUTORIELS</p>
@@ -42,8 +71,7 @@
 
       <!-- Posts -->
       <div class="w3-card w3-margin">
-        <div class="w3-container w3-padding"
-          style="background-image: url('home/pages/contiune-pages/tutos.png'); background-size:cover;">
+        <div class="w3-container w3-padding" style="background-image: url('home/pages/contiune-pages/tutos.png'); background-size:cover;">
           <div class="sidebar-heading" style="text-align:center; padding-top: 20px">
             <p class="font-60" style="text-align:center; color: #016FA8;">LES FORMATIONS<br>
               PAR VIDÉO</p><br>
@@ -67,6 +95,16 @@
     <!-- Blog entries -->
     <div class="col-9">
       <!-- Blog entry -->
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-11">
+          <p class="font-60" style="color: #016FA8;">
+            LA COPROPRIÉTÉ DIGITALE
+          </p>
+          <p class="font-32" style="color: #86C4EC">Votre logiciel syndic de copropriété universel,</p>
+          <p class="font-32" style="color: #86C4EC">complet, simple, intuitif et connecté</p>
+        </div>
+      </div>
       <div class="w3-card-4 w3-margin w3-white">
         <div class="w3-container">
           <div class="page-content" style="margin:90px;">

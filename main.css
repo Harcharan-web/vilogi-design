@@ -42,6 +42,23 @@
   text-decoration: none;
   color: #fff;
 }
+.pages-button-wrapper {
+  background-color: #fff;
+  padding: 8px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin-bottom: 10px;
+  width: 80%;
+  margin: auto;
+  border: 1px solid #122B54;
+  text-align: center;
+}
+
+.pages-button-wrapper a {
+  text-decoration: none;
+  color: #122B54;
+  font-size: 13px;
+}
 
 .section-6-left {
   margin-left: 55px;
@@ -366,7 +383,7 @@ ul {
   display: flex;
   justify-content: center;
   margin-top: 50px;
-  margin-bottom: 80px;
+  margin-bottom: 50px;
 }
 
 .grid-item {
