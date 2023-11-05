@@ -93,21 +93,37 @@
         closeIcon.classList.add("d-none");
       }
     }
-
-    document.getElementById("targetElement").onclick = () => {
-      console.log("jhi");
-      const target = document.getElementById("target");
-      console.log({target});
+    const targetElements =document.querySelectorAll(".targetElement");
+    targetElements.forEach((el, key) => el.addEventListener('click', event => {
+      const target = document.getElementById(`target-${key}`);
       if (target.className === "pages-left target mb-d-show") {
         target.classList.add("d-none");
         target.classList.remove("mb-d-show");
+        event.target.src = "home/pages/contiune-pages/frm-arrow.png";
       } else if (target.className === "pages-left target d-none") {
         target.classList.add("mb-d-show");
-        target.classList.remove("d-block");
+        target.classList.remove("d-none");
+        event.target.src = "home/pages/contiune-pages/Fl+α╕êche ouverte.png";
       } else {
         target.classList.add("mb-d-show");
+        event.target.src = "home/pages/contiune-pages/Fl+α╕êche ouverte.png";
       }
-    }
+    }));
+    // document.getElementById("targetElement").onclick = () => {
+    //   const target = document.getElementById("target");
+    //   if (target.className === "pages-left target mb-d-show") {
+    //     target.classList.add("d-none");
+    //     target.classList.remove("mb-d-show");
+    //     document.getElementById("targetElement").src = "home/pages/contiune-pages/frm-arrow.png";
+    //   } else if (target.className === "pages-left target d-none") {
+    //     target.classList.add("mb-d-show");
+    //     target.classList.remove("d-none");
+    //     document.getElementById("targetElement").src = "home/pages/contiune-pages/Fl+α╕êche ouverte.png";
+    //   } else {
+    //     target.classList.add("mb-d-show");
+    //     document.getElementById("targetElement").src = "home/pages/contiune-pages/Fl+α╕êche ouverte.png";
+    //   }
+    // }
   </script>
 </body>
 
