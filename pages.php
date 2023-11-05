@@ -33,7 +33,7 @@
   <!-- Grid -->
   <div class="row">
     <!-- Introduction menu -->
-    <div class="col-3">
+    <div class="col-3 page-sidebar">
       <!-- About Card -->
       <div class="w3-card w3-margin w3-margin-top">
         <input type="checkbox" id="cbToggleVisibility">
@@ -93,11 +93,11 @@
     </div>
 
     <!-- Blog entries -->
-    <div class="col-9">
+    <div class="col-md-9 col-sm-12">
       <!-- Blog entry -->
       <div class="row">
-        <div class="col-md-1"></div>
-        <div class="col-md-11">
+        <div class="col-md-1 col-sm-1"></div>
+        <div class="col-md-11 col-sm-11">
           <p class="font-60" style="color: #016FA8;">
             LA COPROPRIÉTÉ DIGITALE
           </p>

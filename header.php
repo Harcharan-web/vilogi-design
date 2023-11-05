@@ -56,8 +56,8 @@
                                     <a href="#estimation" class="nav-link">ESTIMATION DE BIENS</a>
                                 </li>
                             </ul>
-                            <a class="icon open" onclick="toggleNavbar()">&#9776;</a>
-                            <a class="icon close" onclick="toggleNavbar()">&#10006;</a>
+                            <a class="icon open" style="margin-top: 17px;" onclick="toggleNavbar()">&#9776;</a>
+                            <a class="icon close close-styles" onclick="toggleNavbar()">&#10006;</a>
                         </div>
                     </nav>
                 </div>

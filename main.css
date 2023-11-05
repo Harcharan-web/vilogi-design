@@ -42,6 +42,7 @@
   text-decoration: none;
   color: #fff;
 }
+
 .pages-button-wrapper {
   background-color: #fff;
   padding: 8px;
@@ -217,6 +218,7 @@ p {
 .blue-imag {
   padding-top: 20px;
 }
+
 /* Media Query for responsiveness */
 @media (max-width: 768px) {
   .portfolio-grid {
@@ -311,6 +313,12 @@ ul {
   margin-top: 45px;
 }
 
+.close-styles {
+  position: absolute;
+  right: 0;
+  top: 23px;
+}
+
 .nav-item {
   margin-left: 1rem;
   align-items: right;
@@ -360,6 +368,7 @@ ul {
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin-top: 100px;
   }
 
   .navbar.responsive .nav-item {
@@ -375,6 +384,10 @@ ul {
   }
 
   .mb-d-show {
+    display: none;
+  }
+
+  .page-sidebar {
     display: none;
   }
 }
